@@ -39,7 +39,7 @@ def jugar():
 def leersaldo():
     global saldo
     pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract"
-    path = "C:/Users/soyju/Desktop/BOT LDLC/BOTCASINO/prueba/saldo.png"
+    path = "BOT LDLC/BOTCASINO/prueba/saldo.png"
     titles = pyautogui.getAllTitles()
 
     window = pyautogui.getWindowsWithTitle('MONOPOLY Poker')[0]
